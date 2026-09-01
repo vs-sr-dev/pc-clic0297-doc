@@ -51,7 +51,7 @@ Windows (0.63 %), and 573 files the magazine actually wrote (**0.82 %**).
 
 | | |
 |---|---|
-| [00 — The predictions](docs/00-predictions.md) | sixty-two bets, written before the image was opened, never edited |
+| [00 — The predictions](docs/00-predictions.md) | sixty-two bets, written before the image was opened; three dead links repointed afterwards and logged |
 | [01 — Provenance](docs/01-provenance.md) | an image of a disc, and nine parcels that never met |
 | [02 — The spec sheet](docs/02-spec-sheet.md) | every number, with the command that makes it again |
 | [03 — The file count](docs/03-file-count.md) | four answers, and the five Finder objects that explain all of them |

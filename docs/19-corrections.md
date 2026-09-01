@@ -152,7 +152,10 @@ broken to honour the letter of the rule would have been worse than saying this.
 
 ---
 
-## What the eight have in common
+## What the eight measurement errors have in common
+
+M9 is a bookkeeping note rather than a mistake about the disc, so the eight
+below are M1 to M8.
 
 Four of them — M1, M2, M4, M8 — are the same failure: **a wrong answer that
 looked reasonable.** Three orphan sectors instead of two; dozens of missing
