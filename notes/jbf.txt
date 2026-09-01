@@ -1,0 +1,51 @@
+file        : PSPBRWSE.JBF
+size        : 127800 bytes
+first 32    : 4A 41 53 43 20 42 52 4F 57 53 20 46 49 4C 45 00 01 00 01 2F 00 00 00 63 3A 5C 44 66 31 5C 70 69
+signature   : 'JASC BROWS FILE'  (JASC BROWS FILE)
+bytes 16-40 : 01 00 01 2F 00 00 00 63 3A 5C 44 66 31 5C 70 69 63 73 00 00 00 00 00 00
+names found : 38 distinct
+  first at offset 1028, last at 124332, span 123304 bytes
+  mean spacing 3332.5 bytes -- regular, so this is a record array
+
+    1028  Forecast.lbm
+    4307  Waitscr.lbm
+    4865  ARCADIA.lbm
+    8949  SIGRACE.lbm
+   13059  Arcres.lbm
+   16392  Loadsave.lbm
+   20085  Replay.lbm
+   23933  Boxes3.lbm
+   27600  Joyback.lbm
+   30416  Waitpipe.lbm
+   32984  Conback.lbm
+   37837  Conback2.lbm
+   38049  RESULT2.lbm
+   42432  CHMPSTIL.lbm
+   46310  _backup_.lbm
+   50285  Shootout.lbm
+   53620  Caliback.lbm
+   58346  oldload.lbm
+   62548  chcarbk.lbm
+   63878  Gridpic.lbm
+   68002  ftable.lbm
+   77029  oldgrid.lbm
+   80604  Killpipe.lbm
+   81019  Weather5.lbm
+   84392  Weather2.lbm
+   88802  Weather3.lbm
+   92451  Weather4.lbm
+   96514  Weather1.lbm
+  101181  Teque.lbm
+  102585  editback.lbm
+  106818  wshieldl.lbm
+  107266  Wshieldh.lbm
+  107764  Lcockpt2.lbm
+  109036  editbac2.lbm
+  112518  editbac3.lbm
+  116147  Eboxpos.lbm
+  120360  disk2.lbm
+  124332  Workslo.lbm
+
+checked against _work/iso/MAGDEMO/PICS
+  named and present : 38
+  named and ABSENT  : 0

@@ -1,0 +1,92 @@
+### _work/iso/LEADER/CATALOGO/TRYOUT/EF2000.AVI
+file            : _work/iso/LEADER/CATALOGO/TRYOUT/EF2000.AVI
+size            : 20783962 bytes
+RIFF size field : 20783954  (+8 = 20783962, file is 20783962, exact)
+avih flags      : 0x00000110 HASINDEX ISINTERLEAVED
+microsec/frame  : 83333  -> 12.000 fps
+total frames    : 1695
+streams         : 2
+frame size      : 240 x 180
+max bytes/sec   : 153600  (1229 kbit/s)
+suggested buffer: 16384
+duration        : 141.25 s = 2:21.25
+movi list bytes : 20656132  (99.38 % of file)
+idx1            : 81488 bytes = 5093 entries
+overall bitrate : 1177 kbit/s
+
+  stream 0      : vids  handler 'cvid'  flags 0x0
+    scale/rate  : 83333 / 1000000 = 12.0000 per second
+    length      : 1695  -> 141.25 s
+    buffer      : 12485   quality 8500   sample size 0
+    bitmap      : 240x180  24 bpp  planes 1
+    compression : 'cvid'   image size 20775   palette 0   extra 0
+
+  stream 1      : auds  handler '\x00\x00\x00\x00'  flags 0x0
+    scale/rate  : 2 / 44100 = 22050.0000 per second
+    length      : 3109932  -> 141.04 s
+    buffer      : 3676   quality 8500   sample size 2
+    format      : 0x0001 PCM
+    audio       : 22050 Hz  2 ch  8 bits  align 2
+    avg bytes/s : 44100  (353 kbit/s)   extra 0
+
+### _work/iso/LEADER/CATALOGO/TRYOUT/GK2A.AVI
+file            : _work/iso/LEADER/CATALOGO/TRYOUT/GK2A.AVI
+size            : 13720508 bytes
+RIFF size field : 13720500  (+8 = 13720508, file is 13720508, exact)
+avih flags      : 0x00000110 HASINDEX ISINTERLEAVED
+microsec/frame  : 100000  -> 10.000 fps
+total frames    : 790
+streams         : 2
+frame size      : 320 x 240
+max bytes/sec   : 348080  (2785 kbit/s)
+suggested buffer: 36864
+duration        : 79.00 s = 1:19.00
+movi list bytes : 13676548  (99.68 % of file)
+idx1            : 38048 bytes = 2378 entries
+overall bitrate : 1389 kbit/s
+
+  stream 0      : vids  handler 'iv32'  flags 0x0
+    scale/rate  : 100000 / 1000000 = 10.0000 per second
+    length      : 790  -> 79.00 s
+    buffer      : 31024   quality 10000   sample size 0
+    bitmap      : 320x240  24 bpp  planes 1
+    compression : 'IV32'   image size 230400   palette 0   extra 0
+
+  stream 1      : auds  handler '\x00\x00\x00\x00'  flags 0x0
+    scale/rate  : 2 / 44100 = 22050.0000 per second
+    length      : 1741185  -> 78.97 s
+    buffer      : 4410   quality 10000   sample size 2
+    format      : 0x0001 PCM
+    audio       : 22050 Hz  1 ch  16 bits  align 2
+    avg bytes/s : 44100  (353 kbit/s)   extra 0
+
+### _work/iso/LEADER/CATALOGO/TRYOUT/TOPGUN.AVI
+file            : _work/iso/LEADER/CATALOGO/TRYOUT/TOPGUN.AVI
+size            : 15002312 bytes
+RIFF size field : 15002304  (+8 = 15002312, file is 15002312, exact)
+avih flags      : 0x00000110 HASINDEX ISINTERLEAVED
+microsec/frame  : 83333  -> 12.000 fps
+total frames    : 1179
+streams         : 2
+frame size      : 240 x 180
+max bytes/sec   : 153600  (1229 kbit/s)
+suggested buffer: 18432
+duration        : 98.25 s = 1:38.25
+movi list bytes : 14899204  (99.31 % of file)
+idx1            : 56768 bytes = 3548 entries
+overall bitrate : 1222 kbit/s
+
+  stream 0      : vids  handler 'cvid'  flags 0x0
+    scale/rate  : 83333 / 1000000 = 12.0000 per second
+    length      : 1179  -> 98.25 s
+    buffer      : 12704   quality 10000   sample size 0
+    bitmap      : 240x180  24 bpp  planes 1
+    compression : 'cvid'   image size 20775   palette 0   extra 0
+
+  stream 1      : auds  handler '\x00\x00\x00\x00'  flags 0x0
+    scale/rate  : 2 / 44100 = 22050.0000 per second
+    length      : 2166413  -> 98.25 s
+    buffer      : 3676   quality 10000   sample size 2
+    format      : 0x0001 PCM
+    audio       : 22050 Hz  2 ch  8 bits  align 2
+    avg bytes/s : 44100  (353 kbit/s)   extra 0

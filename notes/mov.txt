@@ -1,0 +1,40 @@
+file                               bytes    first  duration video      audio              mvhd created
+---------------------------- ----------- -------- --------- ---------- ------------------ -------------------
+3DBODY.MOV                      18071236     mdat   104.93s cvid       twos               1996-09-30 09:01:47
+AVIATION.MOV                     5949691     mdat    41.70s cvid       raw                1996-05-03 02:18:32
+BABAYAGA.MOV                     7025367     mdat    52.03s cvid       raw                1996-05-14 09:38:35
+BOES.MOV                        11458547     mdat    55.27s cvid       twos               1996-10-01 09:13:32
+CASPER.MOV                      18951254     mdat   111.00s cvid       twos               1996-09-29 21:09:29
+CEZANNE.MOV                      4857814     mdat    32.43s cvid       raw                1996-05-03 13:57:27
+DESCENT.MOV                      6012328     mdat    27.87s cvid       raw                1996-02-17 23:56:05
+EVOC.MOV                         8175415     moov    54.07s cvid       ima4               1995-10-11 10:42:02
+FREDDA.MOV                      12975649     moov    77.70s cvid       ima4               1995-10-11 11:34:39
+GPRIX2.MOV                      12569402     mdat    73.00s cvid       twos               1996-09-22 11:02:00
+GULL.MOV                        10573725     moov    61.93s cvid       ima4               1995-10-11 11:40:03
+JUVE.MOV                         4685641     mdat    25.76s cvid       twos               1995-11-16 00:02:31
+LOUVRE.MOV                       6018530     mdat    45.27s cvid       raw                1996-05-03 13:58:21
+LULU.MOV                        10680025     moov    67.60s cvid       ima4               1995-10-11 15:10:49
+MDA.MOV                         15702353     moov    97.20s cvid       ima4               1995-10-11 15:27:34
+MILAN.MOV                        5113381     mdat    42.25s cvid       twos               1994-12-24 11:13:20
+MK3.MOV                          7026602     mdat    32.07s cvid       raw                1996-02-17 23:57:48
+OSCAR.MOV                       11943109     moov    70.93s cvid       ima4               1995-10-14 09:19:03
+PAWS.MOV                        13147311     mdat   121.00s cvid       raw                1994-10-28 11:20:47
+PHANTA.MOV                       7015673     mdat    57.13s cvid       raw                1996-02-18 00:00:15
+PINBALL.MOV                      3819747     mdat    18.53s cvid       raw                1996-04-19 17:51:48
+PRIMA.MOV                       22974970     mdat   143.00s cvid       twos               1996-09-29 20:31:45
+SIM.MOV                         13153042     mdat    77.00s cvid       twos               1996-09-30 10:04:08
+HOLDER.MOV                       2182682     mdat    17.40s cvid       twos               1996-10-01 09:10:39
+MAIN.MOV                          293139     mdat     9.02s rle                           1996-12-03 14:59:32
+VR.MOV                            533597     mdat     2.87s cvid                          1996-12-03 14:59:22
+ANI.MOV                           497299     mdat    22.52s            twos               1996-10-18 10:35:12
+ANIATT.MOV                        648908     mdat    29.39s            twos               1996-10-18 10:35:22
+ANIESP.MOV                        290027     mdat    13.12s            twos               1996-10-18 10:34:48
+ANIMEZ.MOV                        433477     mdat    19.62s            twos               1996-10-18 10:35:41
+ANINOB.MOV                        587001     mdat    26.58s            twos               1996-10-18 10:35:00
+ESTRNNCP.MOV                      849361     moov     6.00s cvid                          1996-10-18 10:22:31
+
+files                 : 32
+fast-start (moov 1st) : 7
+not fast-start        : 25
+total bytes           : 244216303
+total duration        : 1636.18 s = 27.27 min

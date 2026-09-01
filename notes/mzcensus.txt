@@ -1,0 +1,21 @@
+=== the nine MZ executables ===
+file              size  cblp   cp     img  slack  crlc   hdr  cs:ip  ss:sp  int3f
+SETUPIE.EXE      16896   144    3    1168  15728     0    64  0000:0000 0000:00b8      0
+total .EXE bytes: 16896
+
+=== e_cblp against the file length modulo 512 ===
+If these agree for all nine, the third byte of the file is arithmetic,
+not a signature, and there is no MZP marker in this folder.
+  SETUPIE.EXE    e_cblp= 144  size mod 512=   0  DIFFER  byte2=0x90 
+  0 of 1 agree
+
+=== toolchain banners ===
+  SETUPIE.EXE    none
+Traceback (most recent call last):
+  File "tools\mzcensus.py", line 123, in <module>
+    main()
+    ~~~~^^
+  File "tools\mzcensus.py", line 88, in main
+    d = open(os.path.join(root, n), "rb").read()
+        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '_work/iso\\MM.OVR'

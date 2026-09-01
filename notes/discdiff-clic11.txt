@@ -1,0 +1,9 @@
+_work/iso                                                  2818 files,   2700 distinct,    489034354 bytes
+../pc-clic11-doc/_work/iso                        857 files,    841 distinct,    632559963 bytes
+
+-- iso  vs  iso
+   files hashing the same on both   3
+      QTINSTAL.EXE                             == QTINSTAL.EXE
+      TOMB.LOG                                 == MSCREATE.DIR
+      VBRUN300.DLL                             == VBRUN300.DLL
+

@@ -1,0 +1,18 @@
+# The object itself. 509,257,728 bytes, and it lives inside the repository
+# directory rather than on a drive letter, which is new and dangerous.
+# Named explicitly, and verified in both directions with
+#   git check-ignore -v --no-index CLIC.ISO
+#   git check-ignore -v --no-index README.md   (must NOT match)
+CLIC.ISO
+*.ISO
+*.iso
+
+# Extraction and scratch space. Branch convention.
+_work/
+
+# Python
+__pycache__/
+*.pyc
+
+# The session briefing. Not part of the measurement.
+prompt.txt

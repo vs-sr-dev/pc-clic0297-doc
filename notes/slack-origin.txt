@@ -1,0 +1,37 @@
+slack regions total   2395
+sampled               40 of 2395  (every 59th)
+probe                 32 bytes
+
+of 39 probes:
+  found inside the SAME file's extent    0
+  found inside ANOTHER file's extent     8
+  in the image but inside NO file extent 14
+  absent from the image entirely         17
+  probe too uniform to search            1
+
+first 25 results:
+  slack after /CATAL.HTM;1                                 LBA    1164 +4 -> /IMG/HOME1.JPG;1 + 118784
+  slack after /PAG/7TU011.HTM;1                            LBA    1505 +3 -> (in the image, but in no file)
+  slack after /NUMERI/CLIC297/COP/COP.HTM;1                LBA    1920 +3 -> (in the image, but in no file)
+  slack after /NUMERI/CLIC297/INTERNET/5INT1.HTM;1         LBA    2221 +2 -> (in the image, but in no file)
+  slack after /PAG/4SO001.HTM;1                            LBA    2586 +2 -> (absent from the image)
+  slack after /NUMERI/CLIC297/POSTA/DOMANDE.HTM;1          LBA    2940 +3 -> /NUMERI/CLIC297/POSTA/297SW5.HTM;1 + 7168
+  slack after /LEADER/CATALOGO/REQUISIT/100745.TXT;1       LBA    8934 +4 -> /LEADER/CATALOGO/REQUISIT/100567.TXT;1 + 1536
+  slack after /LEADER/CATALOGO/REQUISIT/400035.TXT;1       LBA    9229 +4 -> (in the image, but in no file)
+  slack after /LEADER/CATALOGO/REQUISIT/400120.TXT;1       LBA    9524 +4 -> /LEADER/CATALOGO/MTB30BAS.DLL;1 + 845819
+  slack after /LEADER/CATALOGO/REQUISIT/400066.TXT;1       LBA    9819 +4 -> (in the image, but in no file)
+  slack after /LEADER/CATALOGO/IMAGES/100772.TIF;1         LBA  151542 +1 -> (in the image, but in no file)
+  slack after /LEADER/CATALOGO/IMAGES/100705.TIF;1         LBA  152551 +2 -> (absent from the image)
+  slack after /LEADER/CATALOGO/IMAGES/100761.TIF;1         LBA  153655 +3 -> (absent from the image)
+  slack after /LEADER/CATALOGO/REVIEW/R400066.TXT;1        LBA  154439 +4 -> (in the image, but in no file)
+  slack after /LEADER/CATALOGO/INFO/100595.WAV;1           LBA  157770 +3 -> (absent from the image)
+  slack after /LEADER/CATALOGO/INFO/100493.WAV;1           LBA  165547 +1 -> (absent from the image)
+  slack after /LEADER/CATALOGO/INFO/400108.WAV;1           LBA  175387 +1 -> (absent from the image)
+  slack after /MAGDEMO/OLDCARS.NOR/CAR12.RAM;1             LBA  205429 +4 -> (in the image, but in no file)
+  slack after /MAGDEMO/OBJECTS/ADFAD.DAT;1                 LBA  206024 +4 -> /MAGDEMO/OBJECTS/OLDCARS.NWL;1 + 1521
+  slack after /MAGDEMO/OBJECTS/STATE.RST;1                 LBA  206344 +4 -> (absent from the image)
+  slack after /MAGDEMO/OBJECTS/FORTI.DAT;1                 LBA  206697 +1 -> (in the image, but in no file)
+  slack after /MAGDEMO/FONTS/HTITFONT.FFF;1                LBA  207032 +1 -> (absent from the image)
+  slack after /MAGDEMO/HPICS/SERB_FRE.LBM;1                LBA  208545 +3 -> (absent from the image)
+  slack after /MAGDEMO/PICS/WAITSCR.LBM;1                  LBA  210270 +3 -> (absent from the image)
+  slack after /MAGDEMO/HELPG/SPA.HLP;1                     LBA  211059 +4 -> (in the image, but in no file)

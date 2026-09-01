@@ -1,0 +1,16 @@
+file records            2823
+ISO extent sectors      240377
+HFS allocation sectors  247140
+difference              6763 sectors = 13850624 bytes
+files with slack        2395 of 2823 = 84.8388 %
+
+slack length, in sectors:
+  1 sector(s)  x   369  =    369 sectors
+  2 sector(s)  x   605  =   1210 sectors
+  3 sector(s)  x   500  =   1500 sectors
+  4 sector(s)  x   921  =   3684 sectors
+
+slack sectors by content:
+  not zero      6763 sectors = 13850624 bytes  100.0000 % of slack
+
+non-zero slack regions that repeat their own file's tail: 0 of 2395

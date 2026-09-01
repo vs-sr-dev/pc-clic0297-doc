@@ -1,0 +1,163 @@
+files searched : 2816
+bytes searched : 489034354
+
+paths found    : 1529   (DOS 1281, Mac 248)
+distinct strings: 1070
+files carrying at least one : 81
+
+==========================================================================
+DOS-shaped paths: 1281 hits, 857 distinct
+  126  c:\watcom10.5\.\lib386\dos\clib3r.lib                       LEADER/TOMB/TOMB.MAP
+   38  d:\hook\src\memory\heap.c                                   LEADER/CATALOGO/MTB30BAS.DLL
+   17  d:\hook\src\memory\block.c                                  LEADER/CATALOGO/MTB30BAS.DLL
+   14  d:\hook\src\memory\arena.c                                  LEADER/CATALOGO/MTB30BAS.DLL
+   11  d:\hook\src\memory\cdbheap.c                                LEADER/CATALOGO/MTB30BAS.DLL
+    5  d:\hook\src\gdimgr\tbkf1.c                                  LEADER/CATALOGO/MTB30UTL.DLL
+    4  c:\watcom10.5\.\lib386\math387r.lib                         LEADER/TOMB/TOMB.MAP
+    4  C:\WINDOWS\Desktop\Orsay                                    MUSEO/MAIN.DIR
+    4  C:\WINDOWS\Desktop\D                                        MUSEO/ORSAY.EXE
+    3  D:\Clic-cd\img\itdot.gif                                    IMG/WS_FTP.LOG
+    3  D:\Clic-cd\img\icona3.gif                                   IMG/WS_FTP.LOG
+    3  c:\watcom10.5\.\lib386\dos\emu387.lib                       LEADER/TOMB/TOMB.MAP
+    2  D:\Clic-cd\img\b_ric297.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\b_ricx.gif                                   IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\b_ricx11.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\b_ricx12.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\b_som297.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\basil.gif                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\basse.gif                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\bigfoot.gif                                  IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\bottoni.gif                                  IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\bottoni.map                                  IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\bt_map.map                                   IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\business_tool.gif                            IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\cafe.map                                     IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\cafe.map.old                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\cafe_t.map                                   IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\cafe_t.map.old                               IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\calabria.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\campania.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\Casper.jpg                                   IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\centro.gif                                   IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\centro1.gif                                  IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\centro2.gif                                  IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\centro3.gif                                  IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\chisiamo.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\clic297.map                                  IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\clic6.map                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\clic7.map                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\clic9.gif                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\clic9.map                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\cliccloc.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\clicfeb97.gif                                IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\clicgen97.gif                                IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\coda.gif                                     IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\compaq.gif                                   IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\copclic6.gif                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\copclic6.jpg                                 IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\copertina.gif                                IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\copertina.jpg                                IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\cover.gif                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\cover.jpg                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\coverstory.gif                               IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\credits.gif                                  IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\dizionario.gif                               IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\dizionariox.gif                              IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\feb97.gif                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\friuli.gif                                   IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\gatti.gif                                    IMG/WS_FTP.LOG
+    2  D:\Clic-cd\img\giochi2.gif                                  IMG/WS_FTP.LOG
+
+  by volume / drive letter:
+    D                         1031
+    C                          245
+    F                            2
+    M                            1
+    G                            1
+    J                            1
+
+==========================================================================
+Mac-shaped paths: 248 hits, 213 distinct
+   15  AJAJU:U:EQEQ                                                LEADER/CATALOGO/TRYOUT/GULL.MOV
+    3  AU:U:EQEQ                                                   LEADER/CATALOGO/TRYOUT/GULL.MOV
+    3  AJAJU:U:ECE                                                 LEADER/CATALOGO/TRYOUT/GULL.MOV
+    3  JU:U:EQEQ                                                   LEADER/CATALOGO/TRYOUT/GULL.MOV
+    3  AJAJU:U:EQEE                                                LEADER/CATALOGO/TRYOUT/GULL.MOV
+    2  Rotate Left: rotates selection left.2Run: opens a new inst  LEADER/CATALOGO/MTB30RUN.EXE, VILLE/MTB40RUN.EXE
+    2  UOIB:6:CEHR                                                 LEADER/CATALOGO/INFO/100600.WAV, LEADER/CATALOGO/INFO/633.WA
+    2  POFA:79:DGZhs                                               LEADER/CATALOGO/INFO/100616.WAV, LEADER/CATALOGO/INFO/100710
+    2  DD:IDDI:DD:IDDS:DD:IDD                                      LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    2  AJAJU:U:ECEQ                                                LEADER/CATALOGO/TRYOUT/GULL.MOV
+    2  AJAJU:U:EQEC                                                LEADER/CATALOGO/TRYOUT/GULL.MOV
+    2  JAJU:U:EQEQ                                                 LEADER/CATALOGO/TRYOUT/GULL.MOV
+    2  AAAJU:U:EQEQ                                                LEADER/CATALOGO/TRYOUT/GULL.MOV
+    2  AJAJJ:U:EQEQ                                                LEADER/CATALOGO/TRYOUT/GULL.MOV
+    2  AJAJU:U:EQ                                                  LEADER/CATALOGO/TRYOUT/GULL.MOV
+    2  AJAJU:U:EQE                                                 LEADER/CATALOGO/TRYOUT/GULL.MOV
+    2  LINEXE: Using DOS:Extended Startup Conditions...            LEADER/TOMB/DOS4GW.EXE, MAGDEMO/DOS4GW.EXE
+    2  QR1OQ2VW:__EilQQU:IL3OQ8IJ1LM4bdHWX                         MUSEO/MAIN.MOV
+    1  DATE:Thu Jan 23 18:19:32 1997                               IMG/CLIC297.MAP
+    1  OBKMKJ:.:EP                                                 LEADER/CATALOGO/INFO/100389.WAV
+    1  FB:6:DMOPXcox                                               LEADER/CATALOGO/INFO/100394.WAV
+    1  UNB:788:AELS                                                LEADER/CATALOGO/INFO/100469.WAV
+    1  ZH:46:EUamv                                                 LEADER/CATALOGO/INFO/100469.WAV
+    1  SG:6:BIR_ems                                                LEADER/CATALOGO/INFO/100512.WAV
+    1  UJ:357:DOYahpuz                                             LEADER/CATALOGO/INFO/100567.WAV
+    1  TE:4:BKTY                                                   LEADER/CATALOGO/INFO/100588.WAV
+    1  YI:302:GRZ_addkw                                            LEADER/CATALOGO/INFO/100602.WAV
+    1  QGKE:4:EOW_q                                                LEADER/CATALOGO/INFO/100613.WAV
+    1  SNig:.:OC                                                   LEADER/CATALOGO/INFO/100613.WAV
+    1  KFL:EJ:QPLedw                                               LEADER/CATALOGO/INFO/100613.WAV
+    1  XOC17:27:EOZ                                                LEADER/CATALOGO/INFO/100615.WAV
+    1  ROZG:FC6:DLQOSl                                             LEADER/CATALOGO/INFO/100619.WAV
+    1  OB:65:AKSY                                                  LEADER/CATALOGO/INFO/100712.WAV
+    1  ZpraWQ:5H:ANTFS                                             LEADER/CATALOGO/INFO/100761.WAV
+    1  XG:9:AGKOPWhx                                               LEADER/CATALOGO/INFO/400066.WAV
+    1  VOD:5734ASVQE5:BLYhqtsnq                                    LEADER/CATALOGO/INFO/400083.WAV
+    1  YQIA:411477730--1:ENVZ                                      LEADER/CATALOGO/INFO/400083.WAV
+    1  QqE:Z:qQ                                                    LEADER/CATALOGO/TRYOUT/3DBODY.MOV
+    1  M5k50:5:aRaR                                                LEADER/CATALOGO/TRYOUT/3DBODY.MOV
+    1  Keeett:f:C6                                                 LEADER/CATALOGO/TRYOUT/3DBODY.MOV
+    1  AS0:SA:FPY                                                  LEADER/CATALOGO/TRYOUT/3DBODY.MOV
+    1  SSC:SA:CAA                                                  LEADER/CATALOGO/TRYOUT/3DBODY.MOV
+    1  SA:0ASF0SSC:SS                                              LEADER/CATALOGO/TRYOUT/3DBODY.MOV
+    1  S0:SS:CSA00AA00                                             LEADER/CATALOGO/TRYOUT/3DBODY.MOV
+    1  S0:SS:CSS0:SA00AA00                                         LEADER/CATALOGO/TRYOUT/3DBODY.MOV
+    1  MUQ:Q:UQM                                                   LEADER/CATALOGO/TRYOUT/BOES.MOV
+    1  Euz:uuzzuuzzuuzzuuz:Eu                                      LEADER/CATALOGO/TRYOUT/BOES.MOV
+    1  UZ:3:zyQz                                                   LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  El:g:gEA                                                    LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  ImD:IDDIIDDS2_D:2DDS:DD:IDDS2DD2:__                         LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  DDIIDD2SDDIIDDIID_II__II__:2D_:2__:2__:I__S:__22D_IS__      LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  ImDSIDDIIDDS2DD:2DDS:DDIIDD2SDDIIDDIIDDIID_                 LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  IS__II_DIIDDIIDDS:DDIIDD2:D_:S_DS2_D:2_D:ID                 LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  IIDDS:DD:S_DIIDDIIDDIIDDII_DISDD                            LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  SS__:I__S:__:I__S:__IS__II__IIDDIIDDSIDDII_D                LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  DS:DDIID_S:D_:SDDSI_DII__IIDDIIDDISD_                       LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  IS__:S__S:_DSI__S:__IS__II__IIDDIIDDS                       LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  DS:DDIID_S:D_                                               LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  S__S:_DSI__S:__IS__II__IIDDIIDDS                            LEADER/CATALOGO/TRYOUT/CASPER.MOV
+    1  SS__:SD_S:D_SI__S:__IS__II__IIDDIE                          LEADER/CATALOGO/TRYOUT/CASPER.MOV
+
+  by volume / drive letter:
+    AJAJU                       44
+    DD                           6
+    JAJU                         6
+    AU                           5
+    AJ                           5
+    AAAJU                        5
+    UU                           4
+    JU                           4
+    AJAAU                        3
+    AJAJJ                        3
+    ROTATE LEFT                  2
+    UOIB                         2
+    POFA                         2
+    S0                           2
+    SS__                         2
+    DS                           2
+    II                           2
+    JJAJU                        2
+    AJJJU                        2
+    AAU                          2
+

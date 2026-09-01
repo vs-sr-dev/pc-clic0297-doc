@@ -1,0 +1,69 @@
+file records with a data extent : 2821
+slack bytes in last sectors     : 3254392
+  of which zero                 : 582990   17.9139 %
+  of which non-zero             : 2671402   82.0861 %
+files whose slack is not all zero : 2820 of 2821
+
+path                                               bytes    slack non-zero
+IMG/FEB97.GIF;1                                    18532     1948     1929
+IMG/CLIC11/11CO004.JPG;1                            4108     2036     1789
+IMG/CLIC10/11GI006.GIF;1                           16427     2005     1783
+IMG/CLIC11/11GI004.JPG;1                            4124     2020     1781
+IMG/CLIC197/197GI001.JPG;1                         14414     1970     1775
+IMG/CLIC10/11GI003.GIF;1                           20544     1984     1771
+IMG/CLIC11/11GE001.JPG;1                            4184     1960     1766
+LEADER/CATALOGO/INFO/100748.WAV;1                 157702     2042     1756
+LEADER/CATALOGO/INFO/100433.WAV;1                 284684     2036     1752
+IMG/CLIC197/197GE001.JPG;1                         20602     1926     1744
+LEADER/CATALOGO/INFO/100591.WAV;1                 215072     2016     1744
+MAGDEMO/TEXTURES/GENERAL.TEX;1                     10269     2019     1741
+IMG/CLIC12/12GI002.JPG;1                           14464     1920     1739
+IMG/CLIC197/197CA001.JPG;1                         18477     2003     1737
+VILLE/IMMVS/SV42_2.TIF;1                            8198     2042     1736
+IMG/CLIC297/297UT008.JPG;1                         20647     1881     1735
+LEADER/CATALOGO/IMAGES/100554.TIF;1                20486     2042     1734
+LEADER/CATALOGO/IMAGES/400147.TIF;1                20496     2032     1734
+IMG/TESTAAOL.GIF;1                                 20499     2029     1731
+VILLE/IMMVS/SV6_5.TIF;1                             8220     2020     1731
+VILLE/IMMVS/SV27_6.TIF;1                            8220     2020     1730
+VILLE/IMMVS/SV43_4.TIF;1                            8220     2020     1730
+VILLE/IMMVS/SV70.TIF;1                              8220     2020     1730
+LEADER/CATALOGO/IMAGES/100635.TIF;1                20490     2038     1730
+VILLE/IMMVS/SV12_3.TIF;1                            8220     2020     1729
+VILLE/IMMVS/SV4_2.TIF;1                             8198     2042     1729
+LEADER/CATALOGO/IMAGES/100638.TIF;1                20492     2036     1729
+LEADER/CATALOGO/IMAGES/100759.TIF;1                16388     2044     1729
+LEADER/CATALOGO/IMAGES/630.TIF;1                   26660     2012     1729
+LEADER/CATALOGO/REQUISIT/100714.TXT;1                 30     2018     1729
+IMG/9ST003.GIF;1                                   10260     2028     1728
+MAGDEMO/OBJECTS/HELMET.DAT;1                        4145     1999     1728
+VILLE/IMMVS/SV16_3.TIF;1                            8198     2042     1728
+PAG/197GI002.HTM;1                                  6186     2006     1727
+VILLE/IMMVS/SV80.TIF;1                              8198     2042     1727
+VILLE/IMMVS/SV40_2.TIF;1                            8220     2020     1726
+VILLE/IMMVS/SV55.TIF;1                              8198     2042     1726
+LEADER/CATALOGO/IMAGES/100740.TIF;1                32798     2018     1726
+LEADER/CATALOGO/IMAGES/100763.TIF;1                22570     2006     1726
+MAGDEMO/LIGHTS/F1.LTS;1                               31     2017     1725
+
+a sample of what is in the dirty slack:
+  IMG/FEB97.GIF;1                          '..j.........j.I.I.H.I.i................................B.=....%.'
+  IMG/CLIC11/11CO004.JPG;1                 'FILE.............11co001.jpg.......v......"...N........11co001.j'
+  IMG/CLIC10/11GI006.GIF;1                 '2FILE...Z.........11gi003.gif.............."...N........11gi003.'
+  IMG/CLIC11/11GI004.JPG;1                 'FILE.............11gi001.jpg.......v......"...N........11gi001.j'
+  IMG/CLIC197/197GI001.JPG;1               'FILE...,.........197gi010.jpg......v......"...N........197gi010.'
+  IMG/CLIC10/11GI003.GIF;1                 'FILE.............WS_FTP.LOGf.............."...N........WS_FTP.LO'
+
+the commonest non-zero byte values in slack:
+   0xff        172746
+   0x03         31588
+   0x20 ' '     25778
+   0x07         23950
+   0x01         23326
+   0x54 'T'     20848
+   0x49 'I'     19536
+   0x0f         18393
+   0x41 'A'     18084
+   0xfe         17386
+   0x09         16913
+   0x69 'i'     16465
