@@ -21,7 +21,7 @@ that reproduces it.
 | | |
 |---|---|
 | volume identifier | `CLIC` (ISO 9660) / `Clic!` (HFS) — **no issue number in either** |
-| what it says it is | *«Clic! Cd-rom di Marzo»* — the March disc, carrying the February website |
+| what it says it is | *«Clic! Cd-rom di Marzo»* — the March disc, carrying the February website. The magazine labels issues **by month**, which also dates `pc-clic11-doc` to **November 1997** |
 | mastered | 1997-02-14 18:54:32 GMT; HFS volume opened 1997-02-07, closed 17:11:37 |
 | mastering software | `TOAST ISO 9660 BUILDER … 1993-1995 MILES SOFTWARE ENGINEERING` / `TOAST 2.5 Partition` |
 | medium | an **image**: 248,661 sectors against 248,359 declared, the 302 difference all zero and a property of the dumper |
@@ -68,9 +68,9 @@ Windows (0.63 %), and 573 files the magazine actually wrote (**0.82 %**).
 | [14 — Against CLIC 11](docs/14-against-clic11.md) | two issues share two files and neither is theirs |
 | [15 — Leftovers](docs/15-leftovers.md) | 1.0017 %, and twelve logs of the disc making itself |
 | [16 — The tools](docs/16-tools.md) | 158 scripts, four written, and 56 that would lie about this disc |
-| [17 — Open questions](docs/17-open-questions.md) | six raised, three that need a drive, four closed |
+| [17 — Open questions](docs/17-open-questions.md) | eight left open, three that need a drive, five closed |
 | [18 — The scoring](docs/18-scoring.md) | 62 bets, 75.81 %, and the miss that killed a good story |
-| [19 — Corrections](docs/19-corrections.md) | seven in the briefing, nine of mine |
+| [19 — Corrections](docs/19-corrections.md) | seven in the briefing, eleven of mine |
 
 ---
 

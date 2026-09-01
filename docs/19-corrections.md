@@ -1,4 +1,4 @@
-# 19 — Corrections: seven in the briefing, nine of mine
+# 19 — Corrections: seven in the briefing, eleven of mine
 
 *Measure: an error is listed here if a figure or a claim was written down and is
 wrong. Errors caught before anything depended on them are still listed, because
@@ -150,12 +150,48 @@ matching `^\| C\d\d \|`, verified after the edit. The bets are what the rule
 protects; a pointer to a file that does not exist is not a bet, and leaving it
 broken to honour the letter of the rule would have been worse than saying this.
 
+**M10 — I left a question open that this disc had already answered, and I left
+it open by reading a number instead of reading the prose.** The first version of
+[chapter 14](14-against-clic11.md) concluded that the archive codes 4, 6, 7, 9,
+10, 11, 12 were *positions in a sequence*, that issue 11 was therefore November
+1996, and that what `CLIC_11` counted on a disc mastered in October 1997 could
+not be determined from two objects. All of that was wrong except the November.
+
+The codes are **month numbers**, and the evidence was in a directory I had
+already walked. The magazine never once refers to a back issue by an ordinal:
+five references across `PAG/` and `NUMERI/` all read *«numero di ottobre»*,
+*«di maggio»*, *«di giugno»*, *«di luglio»*, *«di settembre»*. `PAG/12CO003.HTM`
+cites the October issue as a back issue, fixing 10 = October and 12 = December.
+`PAG/11CO005.HTM` previews a release *«Il 15 novembre»* in the future tense.
+There is no running issue count on this disc at all, so there was no sequence
+for `CLIC_11` to be the eleventh of, and `11` is **November** — 1997, dated by
+that disc's contents rather than by its label.
+
+I had the month-to-code mapping in hand the moment I printed the `PAG/` prefixes
+and did not ask what the prefixes *were*. Counting a set of numbers is not the
+same as reading them, and this is the fourth entry in this chapter where the
+error was a plausible reading that one command would have killed.
+
+**M11 — I weighed the two objects the wrong way round.** [Chapter 01](01-provenance.md)
+correctly says that measuring an image costs the lead-out, the table of contents
+and the subchannel, and that any sentence here about the physical medium is a
+deduction from a file. What it did not say is the consequence for the
+comparison: **`pc-clic11-doc` was read from a physical disc in a drive, and this
+object is an image of unknown provenance.** That makes the other disc the better
+witness of the two, not the lesser one, and chapter 14 was written as though the
+newer measurement were automatically the stronger. On everything the two discs
+disagree about — and on the 302 sectors this image has where that disc has a
+measured 152-sector lead-out — **the first-hand artefact wins**, and the fact
+that this repository could settle the dating question is a fact about which disc
+carried the archive, not about which was better read.
+
 ---
 
 ## What the eight measurement errors have in common
 
-M9 is a bookkeeping note rather than a mistake about the disc, so the eight
-below are M1 to M8.
+M9 is a bookkeeping note, M10 is a wrong conclusion corrected after
+publication and M11 is a misjudgement about evidence rather than about bytes,
+so the eight below are M1 to M8.
 
 Four of them — M1, M2, M4, M8 — are the same failure: **a wrong answer that
 looked reasonable.** Three orphan sectors instead of two; dozens of missing

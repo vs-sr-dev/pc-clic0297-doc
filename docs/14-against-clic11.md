@@ -127,35 +127,58 @@ PAG/ issue codes:   4 (42) · 6 (39) · 7 (32) · 9 (26) · 10 (24) · 11 (22)
 IMG/ per issue:     CLIC10 · CLIC11 · CLIC12 · CLIC197 · CLIC297 · VOTI
 ```
 
-**The magazine numbered its issues sequentially up to 12 and then switched to
-month-and-year**: `197` is January 1997 and `297` is February 1997, so issue 12
-is December 1996 and **issue 11 is November 1996**.
+**Those codes are months, not positions in a sequence**, and this disc proves it
+in its own prose. The magazine never refers to a back issue by an ordinal; it
+refers to them by month name, five times across the archive:
 
-Which means this disc, mastered in February 1997, carries the back-issue archive
-of an issue called 11 — **22 review pages in `PAG/11*.HTM` and 25 images in
-`IMG/CLIC11/`**, fetched from
-`…/Cliccd/img/clic11` on 1997-02-10 at 12:06 according to that folder's own FTP
-log.
+```
+grep -rhaoiE "numero di (gennaio|…|dicembre)" _work/iso/PAG _work/iso/NUMERI
 
-And the other object in this collection is a disc whose volume identifier is
-`CLIC_11`, mastered **1997-10-20** — eight months later.
+      3  numero di maggio      2  numero di giugno     2  numero di ottobre
+      1  numero di luglio      1  numero di settembre
+```
+
+And two review pages tie a code to its month directly:
+
+  * **`PAG/12CO003.HTM`**, in the archive of code **12**, cites *«il servizio
+    apparso sul **numero di ottobre** di Clic!»* as a back issue — so October is
+    code 10 and code 12 is December;
+  * **`PAG/11CO005.HTM`**, in the archive of code **11**, reviews a title with
+    *«Il **15 novembre** esce nelle librerie»*, in the future tense — an issue
+    published before 15 November.
+
+So the scheme is: **4, 6, 7, 9, 10, 11, 12 are April to December 1996**, and
+`197` and `297` are the same scheme with the year appended once 1996 ran out.
+There is no running issue count anywhere on this disc, and any sequence there
+might have been was abandoned at the end of 1996.
+
+**Which settles what `CLIC_11` is.** A disc mastered **1997-10-20** cannot be
+"the eleventh issue" of a sequence that stopped existing nine months earlier.
+`11` is a month, and the month is **November** — the issue a disc cut on 20
+October is bound into, exactly as this disc, cut on 14 February, is the March
+one. `CLIC_11` is **November 1997**, and the year is fixed by that disc's own
+contents rather than by its label: Encarta 98 and Internet Explorer 4.0 build
+1712 are not 1996 software.
+
+The two elevens are therefore **the same eleven and different years**: November
+1996 here, in 22 review pages and 25 images fetched from `…/Cliccd/img/clic11`
+on 1997-02-10 at 12:06, and November 1997 there.
 
 ```
 $ for f in _work/iso/IMG/CLIC11/*.JPG; do  … compare against ../pc-clic11-doc … done
 (zero matches)
 ```
 
-**None of the 25 images of "issue 11" on this disc appears on the disc called
-`CLIC_11`.** The two elevens are not the same eleven, or the label means
-something other than the issue number — the eleventh CD-ROM rather than the
-eleventh magazine, or a second numbering series begun after the month-and-year
-experiment ended. Two objects cannot settle it, and it is
-[Q3](17-open-questions.md) rather than a conclusion.
+Zero of the 25 cross, which is what a year between two issues predicts.
 
-What is settled is smaller and firmer: **`CLIC_11` in a volume identifier is not
-self-evidently an issue number**, and issue 11's own repository read it as one.
-That is the risk of the only field on a disc that names its maker: it says
-`CLIC_11` and it does not say what the 11 counts.
+**And the two discs label different things, which is the part worth carrying
+forward.** `CLIC297` names the **content** — the February website, on a disc
+bound into the March issue. `CLIC_11` names the **issue**. Neither disc records
+both, and this one records its issue only in the prose of `/LEGGIMI.TXT`. So
+`pc-clic11-doc` is named after its issue and this repository is named after its
+content directory, and the two conventions are not the same convention. That
+asymmetry is recorded in [chapter 19](19-corrections.md) rather than resolved by
+renaming a repository that is already published.
 
 ## Q6 of issue 11, closed
 

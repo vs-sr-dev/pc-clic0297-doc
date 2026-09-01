@@ -1,4 +1,4 @@
-# 17 — Open questions: six this disc raised, three it cannot touch, and four it closed
+# 17 — Open questions: eight left open, three that need a drive, and five closed
 
 *Measure: each entry says what was measured, what it did not settle, and the
 command that would settle it. An entry with no such command does not belong
@@ -31,30 +31,42 @@ that nobody has yet been willing to spend.
 
 ---
 
-## Q1 — Which "11" is `CLIC_11`?
+## Q1 — Which "11" is `CLIC_11`? — **closed: November 1997**
 
-**Measured.** This disc's back-issue archive numbers issues **4, 6, 7, 9, 10,
-11, 12** and then switches to month-and-year — `197` for January 1997, `297` for
-February 1997 — so issue 12 is December 1996 and **issue 11 is November 1996**.
-It carries 22 review pages in `PAG/11*.HTM` and 25 images in `IMG/CLIC11/`,
-fetched from `…/Cliccd/img/clic11` on 1997-02-10 at 12:06.
+**Measured, and it is settled by this disc rather than by the other one.** The
+codes in this disc's back-issue archive — 4, 6, 7, 9, 10, 11, 12, then `197` and
+`297` — are **months, not positions in a sequence**, and the archive says so in
+its own prose:
 
-`pc-clic11-doc`'s volume identifier is `CLIC_11` and it was mastered
-**1997-10-20**, eight months later. None of the 25 images crosses.
+    grep -rhaoiE "numero di (gennaio|…|dicembre)" _work/iso/PAG _work/iso/NUMERI
 
-**Not settled.** Either the magazine returned to sequential numbering after the
-month-and-year experiment, or `CLIC_11` counts CD-ROMs rather than issues, or it
-is a second series. Two objects cannot separate those.
+returns five references and every one names a **month**. The magazine never
+cites a back issue by an ordinal. Two review pages tie a code to its month
+outright: `PAG/12CO003.HTM`, filed under code 12, cites *«il servizio apparso
+sul numero di ottobre di Clic!»* as a back issue — fixing 10 = October and
+12 = December — and `PAG/11CO005.HTM`, filed under code 11, previews a release
+*«Il 15 novembre esce nelle librerie»* in the future tense.
 
-**What would settle it**: a third CLIC disc, or either disc's own `SOMMARIO` or
-cover page naming a month. Issue 11's own HTML contains one month word in the
-whole tree (`maggio`, once) and no issue number, so it is not there.
+So 4 to 12 are April to December 1996, and the year was appended only once 1996
+ran out. **There is no running issue count anywhere on this disc**, and any
+sequence there might once have been was abandoned at the end of 1996.
 
-    grep -rhoiE "gennaio|febbraio|…|dicembre" ../pc-clic11-doc/_work/iso
+A disc mastered **1997-10-20** therefore cannot be the eleventh issue of a
+sequence that had stopped existing nine months earlier. `11` is **November**,
+and a disc cut on 20 October is bound into the November issue exactly as this
+one, cut on 14 February, is the March issue. The year is fixed by that disc's
+own contents rather than by its label: Encarta 98 and Internet Explorer 4.0
+build 1712 are not 1996 software.
 
-Until then, this repository calls its own object **CLIC 02/97** on the strength
-of `NUMERI/CLIC297/` and `/LEGGIMI.TXT`, and treats `CLIC_11` as a label whose
-unit is unknown.
+**`CLIC_11` is November 1997.** The two elevens are the same month a year apart
+— November 1996 lives here as 22 review pages and 25 images, and none of the 25
+crosses, which is what a year between two issues predicts.
+
+**What remains open is a naming question, not a dating one.** `CLIC297` labels
+the *content* — the February website, on a disc bound into the March issue —
+while `CLIC_11` labels the *issue*. Neither disc records both, so the two
+repositories are named on two different conventions. A third CLIC disc would
+show which the magazine used more often; nothing on these two can.
 
 ## Q2 — Where did 13.85 MB of somebody's memory come from?
 
@@ -181,6 +193,10 @@ the four producer tools written for issue 11 and unused here.
 ---
 
 ## What this disc closed
+
+  * **Q1 of this chapter — what the `11` of `CLIC_11` counts.** Months, not
+    positions: `CLIC_11` is **November 1997**. Settled from this disc's own
+    back-issue archive and its own prose, not from the disc it names.
 
   * **Q6 of issue 11 — does the Macintosh side of two hybrids cross?**
     Answered **zero, structurally**: this hybrid has no Macintosh side to cross,
