@@ -8,8 +8,8 @@ tell them apart from the clauses. The clauses are `C01`..`C62`, each marked
 **method** (how the measurement will behave) or **content** (what the object
 will turn out to contain).*
 
-Scoring lives in [22 — The scoring](22-prediction-scoring.md) and is produced by
-`python tools/checkscore.py docs/22-prediction-scoring.md`, not by adding up
+Scoring lives in [18 — The scoring](18-scoring.md) and is produced by
+`python tools/checkscore.py docs/18-scoring.md`, not by adding up
 here.
 
 ---
@@ -46,7 +46,7 @@ here so that the scoring chapter can prove no clause below merely restates it.
 Three questions inherited from `pc-clic11-doc/docs/21-open-questions.md` are
 **not applicable** here and the briefing says so: Q1 and Q2 (the 152 sectors —
 there is no drive and no TOC) and Q3 (the drive's maximum transfer — there is no
-drive). They are closed as such in [21](21-open-questions.md), not re-asked.
+drive). They are closed as such in [17](17-open-questions.md), not re-asked.
 
 ---
 

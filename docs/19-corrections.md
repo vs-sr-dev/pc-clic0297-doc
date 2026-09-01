@@ -1,4 +1,4 @@
-# 19 — Corrections: seven in the briefing, eight of mine
+# 19 — Corrections: seven in the briefing, nine of mine
 
 *Measure: an error is listed here if a figure or a claim was written down and is
 wrong. Errors caught before anything depended on them are still listed, because
@@ -138,6 +138,17 @@ The same bug is why the sweep found 34 files where 32 were expected — and
 following that discrepancy is what turned up the **other eleven WS_FTP logs**,
 which are the best single find in [chapter 15](15-leftovers.md). A miscount that
 leads somewhere is still a miscount, and it is listed as one.
+
+**M9 — I edited the predictions file, and here is exactly what I changed.**
+[Chapter 00](00-predictions.md) says of itself *«it is not edited
+afterwards»*, and three of its cross-references pointed at
+`22-prediction-scoring.md` and `21-open-questions.md` — CLIC 11's chapter
+numbers, written from habit before this repository's own numbering existed.
+They were repointed to `18-scoring.md` and `17-open-questions.md`, which is
+three link targets and **no word of any clause**: the file still holds 62 rows
+matching `^\| C\d\d \|`, verified after the edit. The bets are what the rule
+protects; a pointer to a file that does not exist is not a bet, and leaving it
+broken to honour the letter of the rule would have been worse than saying this.
 
 ---
 

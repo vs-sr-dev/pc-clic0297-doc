@@ -70,7 +70,7 @@ Windows (0.63 %), and 573 files the magazine actually wrote (**0.82 %**).
 | [16 — The tools](docs/16-tools.md) | 158 scripts, four written, and 56 that would lie about this disc |
 | [17 — Open questions](docs/17-open-questions.md) | six raised, three that need a drive, four closed |
 | [18 — The scoring](docs/18-scoring.md) | 62 bets, 75.81 %, and the miss that killed a good story |
-| [19 — Corrections](docs/19-corrections.md) | seven in the briefing, eight of mine |
+| [19 — Corrections](docs/19-corrections.md) | seven in the briefing, nine of mine |
 
 ---
 
